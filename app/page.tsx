@@ -3,7 +3,7 @@
 import { Code } from "@heroui/code";
 
 import { title, subtitle } from "@/components/primitives";
-import { Card, CardHeader, CardBody, Divider, Table, TableHeader, TableColumn, TableBody, TableRow, TableCell, getKeyValue } from "@heroui/react";
+import { Card, CardHeader, CardBody, Divider } from "@heroui/react";
 import { useEffect, useState } from "react";
 import { connectToBroker } from "./core/mqtt";
 import { PUBLIC_TOPIC_ID } from "./constants/constants";
